@@ -8,9 +8,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("static"));
 
-// Home route - HTML
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("Hello World!");
 });
 
 app.get("/about", function (req, res) {

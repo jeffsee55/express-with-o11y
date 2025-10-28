@@ -6,10 +6,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "build": "pnpm cervel build",
+    "dev": "pnpm cervel dev"
+  },
   "dependencies": {
     "@types/express": "5.0.3",
+    "@vercel/cervel-beta": "https://vercel-epmfhz4o8.vercel.sh/tarballs/@vercel/cervel-beta.tgz",
     "express": "5.1.0",
-    "pug": "^3.0.3"
+    "pug": "^3.0.3",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@types/node": "^22.0.0"
