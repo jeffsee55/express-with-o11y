@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "VERCEL_EXPERIMENTAL_BACKENDS": "1"
+    }
+  },
+  "env": {
+    "VERCEL_EXPERIMENTAL_BACKENDS": "1"
+  }
+}

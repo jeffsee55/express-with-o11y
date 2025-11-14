@@ -1,7 +1,0 @@
-{
-  "build": {
-    "env": {
-      "VERCEL_EXPERIMENTAL_EXPRESS_BUILD": "1"
-    }
-  }
-}
